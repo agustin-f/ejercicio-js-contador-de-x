@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 50px;
+}
+
+.input-cant{
+    width: 90%;
+    padding: 25px;
+    margin: 0 auto;
+    display: block;
+    font-size: 25px;
+}
+
+.number{
+    padding: 15px;
+    font-size: 25px;
+    width: 20%;
+    margin-right: 10px;
+}
+
+.row{
+    width: 60%;
+    min-height: 40px;
+    margin: 0 auto;
+}
+
+.btn{
+    width: 49%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: cornsilk;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: darkviolet;
+    color: gold;
+    cursor: pointer;
+}
+
+.btn-agregar{
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    background-color: coral;
+    color: darkblue;
+}
+
+.btn-agregar:hover{
+    background-color: burlywood;
+    color:white;
+    cursor: pointer;
+}
+
+.cantidad{
+    width: 90%;    
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 25px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color:black;
+    background-color: burlywood;
+}
