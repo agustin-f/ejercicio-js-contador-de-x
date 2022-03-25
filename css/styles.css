@@ -4,12 +4,24 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: bisque;
+}
+
 .container{
     width: 50%;
     margin: 0 auto;
     border: 1px solid red;
     padding: 50px;
 }
+
+.header{
+    width: 100%;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
 
 .input-cant{
     width: 90%;
@@ -22,7 +34,7 @@
 .number{
     padding: 15px;
     font-size: 25px;
-    width: 20%;
+    width: 30%;
     margin-right: 10px;
 }
 
@@ -34,7 +46,7 @@
 
 .btn{
     width: 49%;
-    height: 40px;
+    height: auto;
     margin: 0 auto;
     margin-top: 20px;
     background-color: blueviolet;
